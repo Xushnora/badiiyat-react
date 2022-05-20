@@ -15,7 +15,7 @@ function Main (){
 
     return (
         <Layout>
-            <Hero />
+            <Hero cardArr = {cardArr} setCardArr = {setCardArr} />
             <Category 
                 obj = {obj}
                 cardArr = {cardArr}

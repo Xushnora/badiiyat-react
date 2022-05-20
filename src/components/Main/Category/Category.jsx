@@ -27,7 +27,7 @@ function Category({obj, cardArr, setCardArr}) {
                     })}
                 </div>
                 <ul className="category__cardList">
-                    {obj.map((item, i) => {
+                    {cardArr.map((item, i) => {
                         return <CategoryList key = {'a'+i} item = {item} />
                     })}
                 </ul>
