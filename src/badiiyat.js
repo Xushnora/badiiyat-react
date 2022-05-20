@@ -1,14 +1,7 @@
-import React, { useEffect, useState } from "react";
-import Container from "../../UI/Container/Container";
-import '../../assets/fonts/fonts.scss'
-import './category.scss'
-
-import CardImg from '../../assets/imgs/avloniy.jpg'
-
 const badiiyatObj = [{
     id: 1,
     category: "jadid",
-    avatar: "../assets/imgs/avloniy.jpg",
+    avatar: "https://i.imgur.com/bwXa8aS.png",
     name: "Abdulla Avloniy",
     lived: "1878-1934",
     tavallud_yili: 1878,
@@ -19,7 +12,7 @@ const badiiyatObj = [{
 {
     id: 2,
     category: "jadid",
-    avatar: "../assets/imgs/nusrat.jpg",
+    avatar: "https://i.imgur.com/5DxZ9TU.png",
     name: "Nusrat Rahmat",
     lived: "1878-1934",
     tavallud_yili: 1878,
@@ -30,7 +23,7 @@ const badiiyatObj = [{
 {
     id: 3,
     category: "jadid",
-    avatar: "../assets/imgs/rahmonberdi.jpg",
+    avatar: "https://imgur.com/acoQ1fC.png",
     name: "Rahmonberdi Madazimov",
     lived: "1878-1934",
     tavallud_yili: 1878,
@@ -41,7 +34,7 @@ const badiiyatObj = [{
 {
     id: 4,
     category: "jadid",
-    avatar: "../assets/imgs/xamza.jpg",
+    avatar: "https://imgur.com/EqIvFbt.png",
     name: "Hamza Hakimzoda Niyoziy",
     lived: "1878-1934",
     tavallud_yili: 1878,
@@ -52,7 +45,7 @@ const badiiyatObj = [{
 {
     id: 5,
     category: "jadid",
-    avatar: "../assets/imgs/cholpon.jpg",
+    avatar: "https://imgur.com/dxzK34N.png",
     name: "Abdulhamid Cho'lpon",
     lived: "1878-1934",
     tavallud_yili: 1878,
@@ -63,7 +56,7 @@ const badiiyatObj = [{
 {
     id: 6,
     category: "jadid",
-    avatar: "../assets/imgs/fitrat.jpg",
+    avatar: "https://imgur.com/kteEaAp.png",
     name: "Abdurauf Fitrat",
     lived: "1878-1934",
     tavallud_yili: 1878,
@@ -74,7 +67,7 @@ const badiiyatObj = [{
 {
     id: 7,
     category: "jadid",
-    avatar: "../assets/imgs/abdulmajid.jpg",
+    avatar: "https://imgur.com/x8r5amL.png",
     name: "Abdulmajid Qodiriy",
     lived: "1878-1934",
     tavallud_yili: 1878,
@@ -85,7 +78,7 @@ const badiiyatObj = [{
 {
     id: 8,
     category: "jadid",
-    avatar: "../assets/imgs/munavvarqori.jpg",
+    avatar: "https://imgur.com/fvFeOmr.png",
     name: "Munavvarqori Abdurashidxonov",
     lived: "1878-1934",
     tavallud_yili: 1878,
@@ -96,7 +89,7 @@ const badiiyatObj = [{
 {
     id: 9,
     category: "jadid",
-    avatar: "../assets/imgs/qodiriy.jpg",
+    avatar: "https://imgur.com/Hw6VkyD.png",
     name: "Abdulla Qodiriy",
     lived: "1878-1934",
     tavallud_yili: 1878,
@@ -107,7 +100,7 @@ const badiiyatObj = [{
 {
     id: 10,
     category: "jadid",
-    avatar: "../assets/imgs/behbudiy.jpg",
+    avatar: "https://imgur.com/TjK1TrE.png",
     name: "Mahmuxo'ja Behbudiy",
     lived: "1878-1934",
     tavallud_yili: 1878,
@@ -118,7 +111,7 @@ const badiiyatObj = [{
 {
     id: 11,
     category: "jadid",
-    avatar: "../assets/imgs/muin.jpg",
+    avatar: "https://imgur.com/B7AghFJ.png",
     name: "Hoji Muin",
     lived: "1878-1934",
     tavallud_yili: 1878,
@@ -129,7 +122,7 @@ const badiiyatObj = [{
 {
     id: 12,
     category: "temuriy",
-    avatar: "../assets/imgs/navoiy.jpg",
+    avatar: "https://imgur.com/2vDSafS.jpg",
     name: "Alisher Navoiy",
     lived: "1441-1501",
     tavallud_yili: 1441,
@@ -140,7 +133,7 @@ const badiiyatObj = [{
 {
     id: 13,
     category: "temuriy",
-    avatar: "../assets/imgs/lutfiy.jpg",
+    avatar: "https://imgur.com/21hdJfe.jpg",
     name: "Lutfiy",
     lived: "1366-1465",
     tavallud_yili: 1366,
@@ -151,7 +144,7 @@ const badiiyatObj = [{
 {
     id: 14,
     category: "temuriy",
-    avatar: "../assets/imgs/bobur.jpg",
+    avatar: "https://imgur.com/8qsFw06.jpg",
     name: "Z M Bobur",
     lived: "1483-1530",
     tavallud_yili: 1366,
@@ -162,7 +155,7 @@ const badiiyatObj = [{
 {
     id: 15,
     category: "sovet",
-    avatar: "../assets/imgs/gulom.jpg",
+    avatar: "https://imgur.com/uQCXL1f.jpg",
     name: "G'ofur G'ulom",
     lived: "1903-1966",
     tavallud_yili: 1903,
@@ -173,7 +166,7 @@ const badiiyatObj = [{
 {
     id: 16,
     category: "sovet",
-    avatar: "../assets/imgs/oybek.jpg",
+    avatar: "https://imgur.com/Lnmh2kj.jpg",
     name: "Oybek",
     lived: "1903-1966",
     tavallud_yili: 1903,
@@ -184,7 +177,7 @@ const badiiyatObj = [{
 {
     id: 17,
     category: "sovet",
-    avatar: "../assets/imgs/qahhor.jpg",
+    avatar: "https://imgur.com/pmxR6iI.jpg",
     name: "Abdulla Qahhor",
     lived: "1907-1968",
     tavallud_yili: 1903,
@@ -195,7 +188,7 @@ const badiiyatObj = [{
 {
     id: 18,
     category: "sovet",
-    avatar: "../assets/imgs/primqul.jpg",
+    avatar: "https://imgur.com/DPtRyqg.jpg",
     name: "Primqul Qodirov",
     lived: "1928-2010",
     tavallud_yili: 1928,
@@ -206,7 +199,7 @@ const badiiyatObj = [{
 {
     id: 19,
     category: "mustaqillik",
-    avatar: "../assets/imgs/javlon.jpg",
+    avatar: "https://imgur.com/80DM0sF.jpg",
     name: "Javlon Jovliyev",
     lived: "1907-1968",
     tavallud_yili: 1903,
@@ -215,52 +208,6 @@ const badiiyatObj = [{
     audioBook: 12
 },
 
-
 ]
 
-
-function Category() {
-
-    const[cardArr, setCardArr] = useState([])
-    useEffect(() => {
-        fetch("")
-    })
-
-
-    return (
-        <div className="category">
-            <Container>
-                <h2 className="category__title">Asosiy kategoriyalar</h2>
-                <div className="category__group">
-                    <button className="category__btn">Temuriylar davri</button>
-                    <button className="category__btn">Jadid adabiyoti</button>
-                    <button className="category__btn">Sovet davri</button>
-                    <button className="category__btn">Mustaqillik davri</button>
-                </div>
-                <ul className="category__cardList">
-                    {badiiyatObj.map(item => {
-                        return <li className="category__cardItem">
-                        <div className="category__card cardbox">
-                            <img className="cardbox__img" src={item.avatar} />
-                            <h3 className="cardbox__name">{item.name}</h3>
-                            <p className="cardbox__year">{item.lived}</p>
-                            <div className="cardbox__book">
-                                <div className="cardbox__innerLeft">
-                                    <i class='bx bxs-book-alt'></i>
-                                    <span>34</span>
-                                </div>
-                                <div className="cardbox__innerRight">
-                                    <i class='bx bxs-volume-full'></i>
-                                    <span>13</span>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    })}
-                </ul>
-            </Container>
-        </div>
-    )
-}
-
-export default Category;
+export default badiiyatObj

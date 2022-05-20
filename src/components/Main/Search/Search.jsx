@@ -1,5 +1,5 @@
 import React from "react";
-import '../../assets/fonts/fonts.scss'
+import '../../../assets/fonts/fonts.scss'
 
 import './search.scss'
 
