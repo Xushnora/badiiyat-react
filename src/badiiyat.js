@@ -207,6 +207,30 @@ const badiiyatObj = [{
     books: 34,
     audioBook: 12
 },
+{
+    id: 20,
+    category: "mustaqillik",
+    avatar: "https://imgur.com/F299p22.jpg",
+    name: "Halima Xudoyberdiyeva",
+    lived: "1947-2018",
+    tavallud_yili: 1947,
+    vafot_yili: 2018,
+    books: 34,
+    audioBook: 12
+},
+{
+    id: 21,
+    category: "mustaqillik",
+    avatar: "https://imgur.com/a/bM12VN1.jpg",
+    name: "Shavkat Rahmon",
+    lived: "1950-1996",
+    tavallud_yili: 1950,
+    vafot_yili: 1996,
+    books: 34,
+    audioBook: 12
+},
+
+
 
 ]
 

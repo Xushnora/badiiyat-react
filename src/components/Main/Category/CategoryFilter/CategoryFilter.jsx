@@ -10,7 +10,6 @@ function CategoryFilter({obj, setCardArr, name, id}) {
         setCardArr(filteredArr);
     }
 
-
     return (
         <button onClick={handlerClick} className="category__btn" id={id} >
             {name}
