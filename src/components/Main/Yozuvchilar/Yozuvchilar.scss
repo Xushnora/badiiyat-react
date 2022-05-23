@@ -1,0 +1,194 @@
+.descBox {
+    display: flex;
+    margin: 0 auto;
+
+    &__personImg {
+        width: 582px;
+        height: 779px;
+        border-radius: 0px 50px 50px 0px;
+    }
+
+    &__desc {
+        padding-top: 56px;
+    }
+
+    &__title {
+        font-family: 'Rotterburg Stylish FREE';
+        font-size: 48px;
+        line-height: 53px;
+        text-align: center;
+        color: #C9AC8C;
+        margin-bottom: 10px;
+        text-align: start;
+    }
+
+    &__text {
+        font-family: 'Steinbeck';
+        font-size: 16px;
+        line-height: 144.4%;
+        color: rgba(255, 255, 255, 0.8);
+        margin-bottom: 30px;
+        width: 90%;
+    }
+
+}
+
+.day {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 39px;
+
+    &__text {
+        font-family: 'Visuelt Pro';
+        font-size: 14px;
+        line-height: 144.4%;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    &__year {
+        font-family: 'Rotterburg Stylish FREE';
+        font-size: 39px;
+        line-height: 144.4%;
+        color: #C9AC8C;
+    }
+
+    &__tire {
+        font-size: 39px;
+        font-weight: bold;
+        color: #C9AC8C;
+    }
+
+}
+
+.ijod {
+    margin-bottom: 50px;
+
+    &__titleBox {
+        display: flex;
+        align-items: center;
+
+        .bx {
+            font-size: 30px;
+            color: #C9AC8C;
+        }
+    }
+
+    &__title {
+        font-family: 'Rotterburg Stylish FREE';
+        font-size: 20px;
+        line-height: 22px;
+        text-align: center;
+        color: #C9AC8C;
+        margin-left: 9px;
+        margin-bottom: 3px;
+    }
+
+    &__text {
+        font-family: 'Steinbeck';
+        font-size: 14px;
+        line-height: 155.9%;
+        color: #fff;
+        width: 50%;
+    }
+
+
+}
+
+.asar {
+    width: 100%;
+    overflow-x: hidden;
+
+    &__titleBox {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 13px;
+        width: 95%;
+    }
+
+    &__title {
+        font-family: 'Rotterburg Stylish FREE';
+        font-size: 31px;
+        line-height: 34px;
+        text-align: center;
+        color: #C9AC8C;
+    }
+
+    &__allBtn {
+        font-family: 'Steinbeck';
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+        color: #fff;
+        cursor: pointer;
+
+        &:hover {
+            color: #C9AC8C;
+        }
+    }
+
+    &__list {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    &__item {
+        width: 166px;
+        height: 346px;
+        margin-right: 40px;
+    }
+
+    &__bookImg {
+        width: 164px;
+        height: 246px;
+        margin-bottom: 17px;
+        border-radius: 15px;
+    }
+
+    &__bookTitle {
+        font-family: 'Rotterburg Stylish FREE';
+        font-size: 19px;
+        line-height: 21px;
+        color: #C9AC8C;
+        margin-bottom: 0;
+    }
+
+    &__mind {
+        font-family: 'Visuelt Pro';
+        font-size: 14px;
+        line-height: 144.4%;
+        color: rgba(255, 255, 255, 0.6);
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-button {
+    box-shadow: inset 0 0 5px rgba(128, 128, 128, 0); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-button {
+    background: rgba(204, 204, 204, 0); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(204, 204, 204, 0); 
+  }
+
+
+
