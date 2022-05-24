@@ -76,37 +76,37 @@ const badiiyatObj = [{
     `,
     asarlari: [
         {
-            bookId: 1,
+            bookId: 7,
             bookImg: 'https://imgur.com/fKlnpaS.png',
             bookName: 'Dunyoning ishlari',
             fikrlar: 2300
         },
         {
-            bookId: 2,
+            bookId: 8,
             bookImg: 'https://imgur.com/YiZJ8ov.png',
             bookName: 'Ikki eshik orasi',
             fikrlar: 2245
         },
         {
-            bookId: 3,
+            bookId: 9,
             bookImg: 'https://imgur.com/JXstREO.png',
             bookName: 'Tushda kechgan umrlar',
             fikrlar: 3874
         },
         {
-            bookId: 4,
+            bookId: 10,
             bookImg: 'https://imgur.com/KdQmEHm.png',
             bookName: 'Bahor qaytmaydi',
             fikrlar: 1923
         },
         {
-            bookId: 5,
+            bookId: 11,
             bookImg: 'https://imgur.com/CCXWXcH.png',
             bookName: 'Ajdarning tavbasi',
             fikrlar: 8740
         },
         {
-            bookId: 6,
+            bookId: 12,
             bookImg: 'https://imgur.com/Itkb5lm.png',
             bookName: "O'zbeklar",
             fikrlar: 2378
@@ -133,37 +133,37 @@ const badiiyatObj = [{
     `,
     asarlari: [
         {
-            bookId: 1,
+            bookId: 13,
             bookImg: 'https://imgur.com/fKlnpaS.png',
             bookName: 'Dunyoning ishlari',
             fikrlar: 2300
         },
         {
-            bookId: 2,
+            bookId: 14,
             bookImg: 'https://imgur.com/YiZJ8ov.png',
             bookName: 'Ikki eshik orasi',
             fikrlar: 2245
         },
         {
-            bookId: 3,
+            bookId: 15,
             bookImg: 'https://imgur.com/JXstREO.png',
             bookName: 'Tushda kechgan umrlar',
             fikrlar: 3874
         },
         {
-            bookId: 4,
+            bookId: 16,
             bookImg: 'https://imgur.com/KdQmEHm.png',
             bookName: 'Bahor qaytmaydi',
             fikrlar: 1923
         },
         {
-            bookId: 5,
+            bookId: 17,
             bookImg: 'https://imgur.com/CCXWXcH.png',
             bookName: 'Ajdarning tavbasi',
             fikrlar: 8740
         },
         {
-            bookId: 6,
+            bookId: 18,
             bookImg: 'https://imgur.com/Itkb5lm.png',
             bookName: "O'zbeklar",
             fikrlar: 2378
@@ -189,37 +189,37 @@ const badiiyatObj = [{
     `,
     asarlari: [
         {
-            bookId: 1,
+            bookId: 19,
             bookImg: 'https://imgur.com/fKlnpaS.png',
             bookName: 'Dunyoning ishlari',
             fikrlar: 2300
         },
         {
-            bookId: 2,
+            bookId: 20,
             bookImg: 'https://imgur.com/YiZJ8ov.png',
             bookName: 'Ikki eshik orasi',
             fikrlar: 2245
         },
         {
-            bookId: 3,
+            bookId: 21,
             bookImg: 'https://imgur.com/JXstREO.png',
             bookName: 'Tushda kechgan umrlar',
             fikrlar: 3874
         },
         {
-            bookId: 4,
+            bookId: 22,
             bookImg: 'https://imgur.com/KdQmEHm.png',
             bookName: 'Bahor qaytmaydi',
             fikrlar: 1923
         },
         {
-            bookId: 5,
+            bookId: 23,
             bookImg: 'https://imgur.com/CCXWXcH.png',
             bookName: 'Ajdarning tavbasi',
             fikrlar: 8740
         },
         {
-            bookId: 6,
+            bookId: 24,
             bookImg: 'https://imgur.com/Itkb5lm.png',
             bookName: "O'zbeklar",
             fikrlar: 2378

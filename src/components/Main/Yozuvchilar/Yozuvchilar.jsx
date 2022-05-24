@@ -3,13 +3,12 @@ import './Yozuvchilar.scss'
 
 import { useLocation } from "react-router-dom";
 import Layout from "../../../UI/Layout/Layout";
-import images from '../../../assets/imgs/hoshimov.jpg'
-import books from '../../../assets/imgs/dunyoningIshlari.png'
+import BookInfo from "../BooksInfo/BookInfo";
+import BookList from "../BooksInfo/BookList";
 
 
 function Yozuvchilar({newObj}) {
     let location = useLocation();
-    console.log(newObj);
     return (
         <div>
             {newObj.map((item, i) => {
@@ -53,17 +52,7 @@ function Yozuvchilar({newObj}) {
                                             <a className="asar__allBtn">Barchasini ko'rish</a>
                                         </div>
                                         <ul className="asar__list">
-                                            {item.asarlari.map((books, idx) => (
-                                                <li key={idx} className="asar__item">
-                                                    <img className="asar__bookImg" src={books.bookImg} alt="book" />
-                                                    <div className="asar__infoBox">
-                                                        <h4 className="asar__bookTitle">{books.bookName}</h4>
-                                                        <i className='bx bxs-star' style={{color: '#fff'}}></i>
-                                                        <span className="asar__mind">4.1 - {books.fikrlar} ta fikrlar</span>
-                                                    </div>
-                                                </li>
-                                            ))
-                                            }
+                                            <BookList bookArr = {item.asarlari} />
                                         </ul>
                                     </div>
                                 </div>

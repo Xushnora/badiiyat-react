@@ -10,6 +10,7 @@ import Nazm from './components/Nazm/Nazm';
 
 import obj from './badiiyat.js'
 import { useState } from 'react';
+import BookInfo from './components/Main/BooksInfo/BookInfo';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="maqolalar" element = {<Maqolalar />} />
           <Route path="forum" element = {<Forum />} />
           <Route path="yozuvchilar/:id" element = {<Yozuvchilar newObj={newObj} />} />
+          <Route path="asarlar/:bookId" element = {<BookInfo bookArr = {newObj}/>} />
       </Routes>
     </>
   );

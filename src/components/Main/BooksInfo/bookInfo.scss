@@ -1,0 +1,150 @@
+.bookBox {
+    display: flex;
+    padding-top: 60px;
+    margin-bottom: 64px;
+
+    &__img {
+        border-radius: 15px;
+    }
+
+    &__infoBox {
+        padding-left: 60px;
+    }
+
+    &__title {
+        font-family: 'Rotterburg Stylish FREE';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 53px;
+        color: #C9AC8C;
+        text-align: start;
+        margin-bottom: 13px;
+    }
+
+    &__author {
+        font-family: 'Steinbeck';
+        font-size: 16px;
+        line-height: 16px;
+        color: #C9AC8C;
+        display: inline-block;
+        margin-bottom: 40px;
+    }
+
+    &__start {
+        color: #fff;
+        margin: 0 10px;
+    }
+
+    &__sahifa {
+        font-family: 'Steinbeck';
+        font-size: 20px;
+        line-height: 20px;
+        color: rgba(255, 255, 255, 0.6);
+
+        span {
+            color: #fff;
+            margin-left: 10px;
+        }
+    }
+
+    &__more {
+        font-family: 'Steinbeck';
+        font-size: 16px;
+        line-height: 16px;
+        color: #C9AC8C;
+        margin-bottom: 48px;
+    }
+
+    &__text {
+        font-family: 'Steinbeck';
+        font-size: 16px;
+        line-height: 144.4%;
+        color: rgba(255, 255, 255, 0.8);
+        margin-bottom: 37px;
+    }
+
+    &__format {
+        display: flex;
+        align-items: center;
+
+    }
+
+    &__formatter {
+        text-align: center;
+        color: #fff;
+        padding: 13px;
+        margin-right: 16px;
+
+        .bx {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        p{
+            margin-bottom: 13px;
+            font-family: 'Steinbeck';
+            font-size: 16px;
+            line-height: 16px;
+        }
+    }
+
+    &__btn {
+        padding: 16px 32px;
+        font-family: 'Steinbeck';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color: #3C2710;
+        background: #C9AC8C;
+        border: none;
+        margin-left: 20%;
+    }
+}
+
+.taxlil {
+    
+    &__list {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    &__item {
+        font-family: 'Steinbeck';
+        font-size: 20px;
+        line-height: 20px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    &__rowBox {
+        display: flex;
+    }
+
+    &__firstBox {
+        padding: 40px;
+        width: 50%;
+    }
+
+    &__secondBox {
+        padding: 40px;
+        width: 50%;
+    }
+
+    &__firstText {
+        font-family: 'Steinbeck';
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+    }
+
+    &__quote {
+            color: #fff;
+            font-size: 30px;
+    }
+
+}

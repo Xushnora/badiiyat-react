@@ -1,6 +1,7 @@
 import React from 'react'
 
-function Nasr() {
+function Nasr({bookArr}) {
+    console.log(bookArr);
         return (
             <div>
                 <h1>Nasr</h1>
