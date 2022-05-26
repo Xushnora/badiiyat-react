@@ -5,6 +5,7 @@
     &__personImg {
         width: 582px;
         height: 779px;
+        object-fit: cover;
         border-radius: 0px 50px 50px 0px;
     }
 
@@ -91,7 +92,7 @@
         font-size: 14px;
         line-height: 155.9%;
         color: #fff;
-        width: 50%;
+        width: 80%;
     }
 
 

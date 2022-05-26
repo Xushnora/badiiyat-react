@@ -8,8 +8,8 @@ import CategoryFilter from "./CategoryFilter/CategoryFilter";
 
 function Category({obj, cardArr, setCardArr}) {
 
-    const categoryBtnArr = ['Temuriylar davri', 'Jadid adabiyoti', 'Sovet davri', 'Mustaqillik davri'];
-    const typeArr = ['temuriy', 'jadid', 'sovet', 'mustaqillik']
+    const categoryBtnArr = ['Barchasi' , "O'zbek", 'Jahon', 'Diniy', 'Biznes'];
+    const typeArr = ['', 'uzbek', 'jahon', 'Diniy', 'biznes']
     return (
         <div className="category">
             <Container>

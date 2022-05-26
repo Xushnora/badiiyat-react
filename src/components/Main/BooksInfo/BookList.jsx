@@ -13,7 +13,7 @@ function BookList(props) {
                             <div className="asar__infoBox">
                                 <h4 className="asar__bookTitle">{books.bookName}</h4>
                                 <i className='bx bxs-star' style={{color: '#fff'}}></i>
-                                <span className="asar__mind">4.1 - {books.fikrlar} ta fikrlar</span>
+                                <span className="asar__mind">{books.bookRating} ta fikrlar</span>
                             </div>
                         </Link>
                     </li> 

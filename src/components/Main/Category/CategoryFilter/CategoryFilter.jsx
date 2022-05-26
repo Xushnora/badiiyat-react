@@ -4,10 +4,16 @@ import '../category.scss';
 function CategoryFilter({obj, setCardArr, name, id}) {
 
     const handlerClick = (e) => {
-        const filteredArr = obj.filter((item) => {
-            return item.category === e.target.id
-        })
-        setCardArr(filteredArr);
+        let btnValue = e.target.textContent;
+
+        if(btnValue == 'Barchasi') {
+            setCardArr(obj);
+        } else {
+            const filteredArr = obj.filter((item) => {
+                return item.genre === e.target.id
+            })
+            setCardArr(filteredArr);
+        }
     }
 
     return (

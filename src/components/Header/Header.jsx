@@ -22,7 +22,7 @@ function Header() {
                             <Link className='header__item' to='/nazm'>Nazm</Link>
                         </li>
                         <li>
-                            <Link to='/nasr' className='header__item' >Nazm</Link>
+                            <Link to='/nasr' className='header__item' >Nasr</Link>
                         </li>
                         <li>
                             <Link to='/maqolalar' className='header__item'>Maqolalar</Link>
@@ -35,7 +35,25 @@ function Header() {
                         <div className="header__user-imgbox">
                             <img className='header__user-img' src={Avatar} alt="avatar" />
                         </div>
-                        <button className='header__arrow'><i className='bx bx-chevron-down'></i></button>
+                        <div class="dropdown">
+                            <button class="header__arrow dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i className='bx bx-chevron-down'></i>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li>
+                                    <Link to='/profil' class="dropdown-item" >
+                                        <i class='bx bxs-user-circle' ></i>
+                                        Profil
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to='/settings' class="dropdown-item">
+                                        <i class='bx bxs-cog'></i>
+                                        Settings
+                                    </Link>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </Container>

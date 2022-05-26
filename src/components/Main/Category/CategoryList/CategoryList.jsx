@@ -7,17 +7,17 @@ function CategoryList({ item }) {
     <Link to={`yozuvchilar/${item.id}`}>
         <li className="category__cardItem">
             <div className="category__card cardbox">
-                <img className="cardbox__img" src={item.avatar} />
-                <h3 className="cardbox__name">{item.name}</h3>
-                <p className="cardbox__year">{item.lived}</p>
+                <img className="cardbox__img" src={item.img} />
+                <h3 className="cardbox__name">{item.name} {item.lastName}</h3>
+                <p className="cardbox__year">{item.born} - {item.died}</p>
                 <div className="cardbox__book">
                 <div className="cardbox__innerLeft">
                     <i className="bx bxs-book-alt"></i>
-                    <span>34</span>
+                    <span>{item.books}</span>
                 </div>
                 <div className="cardbox__innerRight">
                     <i className="bx bxs-volume-full"></i>
-                    <span>13</span>
+                    <span>{item.audio}</span>
                 </div>
                 </div>
             </div>
